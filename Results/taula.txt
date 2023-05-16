@@ -1,0 +1,777 @@
+TOTAL 2019-2020
+
+Posterior inference {CausalImpact}
+
+                         Average              Cumulative         
+Actual                   2e+05                1e+07              
+Prediction (s.d.)        2.2e+05 (5978)       1.2e+07 (310879)   
+95% CI                   [2.1e+05, 2.4e+05]   [1.1e+07, 1.2e+07] 
+                                                                 
+Absolute effect (s.d.)   -27435 (5978)        -1426634 (310879)  
+95% CI                   [-38723, -14696]     [-2013606, -764167]
+                                                                 
+Relative effect (s.d.)   -12% (2.4%)          -12% (2.4%)        
+95% CI                   [-16%, -7%]          [-16%, -7%]        
+
+Posterior tail-area probability p:   4e-04
+Posterior prob. of a causal effect:  99.9597%
+
+For more details, type: summary(impact, "report")
+
+TOTAL 2019-2021
+
+Posterior inference {CausalImpact}
+
+                         Average             Cumulative        
+Actual                   2.6e+05             1.3e+07           
+Prediction (s.d.)        2.2e+05 (12001)     1.2e+07 (624066)  
+95% CI                   [186701, 2.4e+05]   [9708448, 1.2e+07]
+                                                               
+Absolute effect (s.d.)   33812 (12001)       1758238 (624066)  
+95% CI                   [17822, 69781]      [926721, 3628605] 
+                                                               
+Relative effect (s.d.)   16% (7.5%)          16% (7.5%)        
+95% CI                   [7.5%, 37%]         [7.5%, 37%]       
+
+Posterior tail-area probability p:   0.00255
+Posterior prob. of a causal effect:  99.74525%
+
+For more details, type: summary(impact, "report")
+
+TOTAL 2019-2022
+
+Posterior inference {CausalImpact}
+
+                         Average             Cumulative        
+Actual                   2.7e+05             1.4e+07           
+Prediction (s.d.)        2.2e+05 (17964)     1.2e+07 (934142)  
+95% CI                   [164687, 2.5e+05]   [8563708, 1.3e+07]
+                                                               
+Absolute effect (s.d.)   46094 (17964)       2396876 (934142)  
+95% CI                   [22412, 103221]     [1165420, 5367470]
+                                                               
+Relative effect (s.d.)   22% (14%)           22% (14%)         
+95% CI                   [9.1%, 63%]         [9.1%, 63%]       
+
+Posterior tail-area probability p:   0.00431
+Posterior prob. of a causal effect:  99.56891%
+
+For more details, type: summary(impact, "report")
+
+FEMALES 2019-2020
+
+Posterior inference {CausalImpact}
+
+                         Average            Cumulative         
+Actual                   123918             6443746            
+Prediction (s.d.)        140862 (3720)      7324839 (193461)   
+95% CI                   [133027, 147900]   [6917387, 7690799] 
+                                                               
+Absolute effect (s.d.)   -16944 (3720)      -881093 (193461)   
+95% CI                   [-23982, -9108]    [-1247053, -473641]
+                                                               
+Relative effect (s.d.)   -12% (2.4%)        -12% (2.4%)        
+95% CI                   [-16%, -6.8%]      [-16%, -6.8%]      
+
+Posterior tail-area probability p:   0.00038
+Posterior prob. of a causal effect:  99.96175%
+
+For more details, type: summary(impact, "report")
+
+FEMALES 2019-2021
+
+Posterior inference {CausalImpact}
+
+                         Average            Cumulative        
+Actual                   161006             8372296           
+Prediction (s.d.)        140070 (7997)      7283639 (415847)  
+95% CI                   [115946, 151410]   [6029193, 7873320]
+                                                              
+Absolute effect (s.d.)   20936 (7997)       1088657 (415847)  
+95% CI                   [9596, 45060]      [498976, 2343103] 
+                                                              
+Relative effect (s.d.)   15% (7.9%)         15% (7.9%)        
+95% CI                   [6.3%, 39%]        [6.3%, 39%]       
+
+Posterior tail-area probability p:   0.00378
+Posterior prob. of a causal effect:  99.62199%
+
+For more details, type: summary(impact, "report")
+
+FEMALES 2019-2022
+
+Posterior inference {CausalImpact}
+
+                         Average            Cumulative        
+Actual                   167988             8735391           
+Prediction (s.d.)        139343 (11988)     7245843 (623359)  
+95% CI                   [102386, 155563]   [5324053, 8089279]
+                                                              
+Absolute effect (s.d.)   28645 (11988)      1489548 (623359)  
+95% CI                   [12425, 65603]     [646112, 3411338] 
+                                                              
+Relative effect (s.d.)   22% (15%)          22% (15%)         
+95% CI                   [8%, 64%]          [8%, 64%]         
+
+Posterior tail-area probability p:   0.00591
+Posterior prob. of a causal effect:  99.40851%
+
+For more details, type: summary(impact, "report")
+
+MALES 2019-2020
+
+Posterior inference {CausalImpact}
+
+                         Average           Cumulative        
+Actual                   72716             3781215           
+Prediction (s.d.)        83223 (2213)      4327616 (115072)  
+95% CI                   [78514, 87436]    [4082746, 4546690]
+                                                             
+Absolute effect (s.d.)   -10508 (2213)     -546401 (115072)  
+95% CI                   [-14721, -5799]   [-765475, -301531]
+                                                             
+Relative effect (s.d.)   -13% (2.4%)       -13% (2.4%)       
+95% CI                   [-17%, -7.4%]     [-17%, -7.4%]     
+
+Posterior tail-area probability p:   0.00026
+Posterior prob. of a causal effect:  99.97392%
+
+For more details, type: summary(impact, "report")
+
+MALES 2019-2021
+
+Posterior inference {CausalImpact}
+
+                         Average          Cumulative        
+Actual                   95474            4964661           
+Prediction (s.d.)        82697 (4368)     4300234 (227130)  
+95% CI                   [69527, 88440]   [3615380, 4598856]
+                                                            
+Absolute effect (s.d.)   12777 (4368)     664427 (227130)   
+95% CI                   [7035, 25948]    [365805, 1349281] 
+                                                            
+Relative effect (s.d.)   16% (7.3%)       16% (7.3%)        
+95% CI                   [8%, 37%]        [8%, 37%]         
+
+Posterior tail-area probability p:   0.00237
+Posterior prob. of a causal effect:  99.7633%
+
+For more details, type: summary(impact, "report")
+
+MALES 2019-2022
+
+Posterior inference {CausalImpact}
+
+                         Average          Cumulative        
+Actual                   99917            5195676           
+Prediction (s.d.)        82392 (6194)     4284367 (322078)  
+95% CI                   [62473, 89910]   [3248618, 4675332]
+                                                            
+Absolute effect (s.d.)   17525 (6194)     911309 (322078)   
+95% CI                   [10007, 37443]   [520344, 1947058] 
+                                                            
+Relative effect (s.d.)   22% (13%)        22% (13%)         
+95% CI                   [11%, 60%]       [11%, 60%]        
+
+Posterior tail-area probability p:   0.00304
+Posterior prob. of a causal effect:  99.6963%
+
+For more details, type: summary(impact, "report")
+
+OVER 60 2019-2020
+
+Posterior inference {CausalImpact}
+
+                         Average           Cumulative        
+Actual                   49302             2563718           
+Prediction (s.d.)        61436 (1840)      3194684 (95675)   
+95% CI                   [57396, 64805]    [2984610, 3369875]
+                                                             
+Absolute effect (s.d.)   -12134 (1840)     -630966 (95675)   
+95% CI                   [-15503, -8094]   [-806157, -420892]
+                                                             
+Relative effect (s.d.)   -20% (2.4%)       -20% (2.4%)       
+95% CI                   [-24%, -14%]      [-24%, -14%]      
+
+Posterior tail-area probability p:   2e-05
+Posterior prob. of a causal effect:  99.998%
+
+For more details, type: summary(impact, "report")
+
+OVER 60 2019-2021
+
+Posterior inference {CausalImpact}
+
+                         Average          Cumulative        
+Actual                   55991            2911547           
+Prediction (s.d.)        60719 (4218)     3157366 (219314)  
+95% CI                   [47526, 65818]   [2471368, 3422536]
+                                                            
+Absolute effect (s.d.)   -4727 (4218)     -245819 (219314)  
+95% CI                   [-9827, 8465]    [-510989, 440179] 
+                                                            
+Relative effect (s.d.)   -7.2% (8.2%)     -7.2% (8.2%)      
+95% CI                   [-15%, 18%]      [-15%, 18%]       
+
+Posterior tail-area probability p:   0.08928
+Posterior prob. of a causal effect:  91%
+
+For more details, type: summary(impact, "report")
+
+OVER 60 2019-2022
+
+Posterior inference {CausalImpact}
+
+                         Average          Cumulative        
+Actual                   59660            3102334           
+Prediction (s.d.)        60123 (6376)     3126380 (331546)  
+95% CI                   [39951, 67241]   [2077472, 3496522]
+                                                            
+Absolute effect (s.d.)   -462 (6376)      -24046 (331546)   
+95% CI                   [-7581, 2e+04]   [-394188, 1e+06]  
+                                                            
+Relative effect (s.d.)   1% (19%)         1% (19%)          
+95% CI                   [-11%, 49%]      [-11%, 49%]       
+
+Posterior tail-area probability p:   0.21511
+Posterior prob. of a causal effect:  78%
+
+For more details, type: summary(impact, "report")
+
+ONCOLOGY 2019-2020
+
+Posterior inference {CausalImpact}
+
+                         Average         Cumulative    
+Actual                   225             11725         
+Prediction (s.d.)        254 (8.4)       13227 (436.6) 
+95% CI                   [237, 270]      [12309, 14060]
+                                                       
+Absolute effect (s.d.)   -29 (8.4)       -1502 (436.6) 
+95% CI                   [-45, -11]      [-2335, -584] 
+                                                       
+Relative effect (s.d.)   -11% (3%)       -11% (3%)     
+95% CI                   [-17%, -4.7%]   [-17%, -4.7%] 
+
+Posterior tail-area probability p:   0.0025
+Posterior prob. of a causal effect:  99.75016%
+
+For more details, type: summary(impact, "report")
+
+ONCOLOGY 2019-2021
+
+Posterior inference {CausalImpact}
+
+                         Average        Cumulative    
+Actual                   273            14196         
+Prediction (s.d.)        253 (17)       13166 (872)   
+95% CI                   [206, 278]     [10718, 14473]
+                                                      
+Absolute effect (s.d.)   20 (17)        1030 (872)    
+95% CI                   [-5.3, 67]     [-277.0, 3478]
+                                                      
+Relative effect (s.d.)   8.4% (9.3%)    8.4% (9.3%)   
+95% CI                   [-1.9%, 32%]   [-1.9%, 32%]  
+
+Posterior tail-area probability p:   0.04785
+Posterior prob. of a causal effect:  95.215%
+
+For more details, type: summary(impact, "report")
+
+ONCOLOGY 2019-2022
+
+Posterior inference {CausalImpact}
+
+                         Average         Cumulative    
+Actual                   287             14903         
+Prediction (s.d.)        252 (25)        13107 (1326)  
+95% CI                   [174, 289]      [9056, 15051] 
+                                                       
+Absolute effect (s.d.)   35 (25)         1796 (1326)   
+95% CI                   [-2.9, 112]     [-148.3, 5847]
+                                                       
+Relative effect (s.d.)   15% (33%)       15% (33%)     
+95% CI                   [-0.99%, 65%]   [-0.99%, 65%] 
+
+Posterior tail-area probability p:   0.03075
+Posterior prob. of a causal effect:  96.925%
+
+For more details, type: summary(impact, "report")
+
+CARDIOLOGY 2019-2020
+
+Posterior inference {CausalImpact}
+
+                         Average         Cumulative     
+Actual                   1170            60843          
+Prediction (s.d.)        1303 (35)       67740 (1833)   
+95% CI                   [1229, 1372]    [63906, 71326] 
+                                                        
+Absolute effect (s.d.)   -133 (35)       -6897 (1833)   
+95% CI                   [-202, -59]     [-10483, -3063]
+                                                        
+Relative effect (s.d.)   -10% (2.5%)     -10% (2.5%)    
+95% CI                   [-15%, -4.8%]   [-15%, -4.8%]  
+
+Posterior tail-area probability p:   0.00172
+Posterior prob. of a causal effect:  99.82787%
+
+For more details, type: summary(impact, "report")
+
+CARDIOLOGY 2019-2021
+
+Posterior inference {CausalImpact}
+
+                         Average        Cumulative    
+Actual                   1538           79992         
+Prediction (s.d.)        1305 (76)      67855 (3972)  
+95% CI                   [1109, 1450]   [57694, 75420]
+                                                      
+Absolute effect (s.d.)   233 (76)       12137 (3972)  
+95% CI                   [88, 429]      [4572, 22298] 
+                                                      
+Relative effect (s.d.)   18% (7.7%)     18% (7.7%)    
+95% CI                   [6.1%, 39%]    [6.1%, 39%]   
+
+Posterior tail-area probability p:   0.00593
+Posterior prob. of a causal effect:  99.40722%
+
+For more details, type: summary(impact, "report")
+
+CARDIOLOGY 2019-2022
+
+Posterior inference {CausalImpact}
+
+                         Average        Cumulative    
+Actual                   1639           85240         
+Prediction (s.d.)        1309 (113)     68081 (5860)  
+95% CI                   [1017, 1513]   [52896, 78654]
+                                                      
+Absolute effect (s.d.)   330 (113)      17159 (5860)  
+95% CI                   [127, 622]     [6586, 32344] 
+                                                      
+Relative effect (s.d.)   26% (14%)      26% (14%)     
+95% CI                   [8.4%, 61%]    [8.4%, 61%]   
+
+Posterior tail-area probability p:   0.0068
+Posterior prob. of a causal effect:  99.32029%
+
+For more details, type: summary(impact, "report")
+
+OBSTETRICS 2019-2020
+
+Posterior inference {CausalImpact}
+
+                         Average         Cumulative      
+Actual                   5226            271764          
+Prediction (s.d.)        5944 (156)      309102 (8127)   
+95% CI                   [5625, 6251]    [292507, 325059]
+                                                         
+Absolute effect (s.d.)   -718 (156)      -37338 (8127)   
+95% CI                   [-1025, -399]   [-53295, -20743]
+                                                         
+Relative effect (s.d.)   -12% (2.3%)     -12% (2.3%)     
+95% CI                   [-16%, -7.1%]   [-16%, -7.1%]   
+
+Posterior tail-area probability p:   0.00027
+Posterior prob. of a causal effect:  99.97326%
+
+For more details, type: summary(impact, "report")
+
+OBSTETRICS 2019-2021
+
+Posterior inference {CausalImpact}
+
+                         Average        Cumulative      
+Actual                   6626           344558          
+Prediction (s.d.)        5967 (321)     310273 (16695)  
+95% CI                   [5187, 6568]   [269714, 341541]
+                                                        
+Absolute effect (s.d.)   659 (321)      34285 (16695)   
+95% CI                   [58, 1439]     [3017, 74844]   
+                                                        
+Relative effect (s.d.)   11% (6.5%)     11% (6.5%)      
+95% CI                   [0.88%, 28%]   [0.88%, 28%]    
+
+Posterior tail-area probability p:   0.01976
+Posterior prob. of a causal effect:  98.024%
+
+For more details, type: summary(impact, "report")
+
+OBSTETRICS 2019-2022
+
+Posterior inference {CausalImpact}
+
+                         Average        Cumulative      
+Actual                   6902           358881          
+Prediction (s.d.)        5982 (457)     311079 (23767)  
+95% CI                   [4802, 6850]   [249730, 356193]
+                                                        
+Absolute effect (s.d.)   919 (457)      47802 (23767)   
+95% CI                   [52, 2099]     [2688, 109151]  
+                                                        
+Relative effect (s.d.)   16% (11%)      16% (11%)       
+95% CI                   [0.75%, 44%]   [0.75%, 44%]    
+
+Posterior tail-area probability p:   0.02215
+Posterior prob. of a causal effect:  97.785%
+
+For more details, type: summary(impact, "report")
+
+UROLOGY 2019-2020
+
+Posterior inference {CausalImpact}
+
+                         Average         Cumulative     
+Actual                   1222            63531          
+Prediction (s.d.)        1370 (38)       71263 (1990)   
+95% CI                   [1290, 1445]    [67078, 75116] 
+                                                        
+Absolute effect (s.d.)   -149 (38)       -7732 (1990)   
+95% CI                   [-223, -68]     [-11585, -3547]
+                                                        
+Relative effect (s.d.)   -11% (2.5%)     -11% (2.5%)    
+95% CI                   [-15%, -5.3%]   [-15%, -5.3%]  
+
+Posterior tail-area probability p:   0.00097
+Posterior prob. of a causal effect:  99.90325%
+
+For more details, type: summary(impact, "report")
+
+UROLOGY 2019-2021
+
+Posterior inference {CausalImpact}
+
+                         Average        Cumulative    
+Actual                   1628           84667         
+Prediction (s.d.)        1372 (87)      71368 (4512)  
+95% CI                   [1141, 1526]   [59357, 79363]
+                                                      
+Absolute effect (s.d.)   256 (87)       13299 (4512)  
+95% CI                   [102, 487]     [5304, 25310] 
+                                                      
+Relative effect (s.d.)   19% (8.7%)     19% (8.7%)    
+95% CI                   [6.7%, 43%]    [6.7%, 43%]   
+
+Posterior tail-area probability p:   0.00536
+Posterior prob. of a causal effect:  99.46378%
+
+For more details, type: summary(impact, "report")
+
+UROLOGY 2019-2022
+
+Posterior inference {CausalImpact}
+
+                         Average        Cumulative    
+Actual                   1737           90321         
+Prediction (s.d.)        1377 (126)     71597 (6566)  
+95% CI                   [1034, 1597]   [53788, 83043]
+                                                      
+Absolute effect (s.d.)   360 (126)      18724 (6566)  
+95% CI                   [140, 703]     [7278, 36533] 
+                                                      
+Relative effect (s.d.)   28% (16%)      28% (16%)     
+95% CI                   [8.8%, 68%]    [8.8%, 68%]   
+
+Posterior tail-area probability p:   0.00622
+Posterior prob. of a causal effect:  99.3784%
+
+For more details, type: summary(impact, "report")
+
+GENERAL MEDICINE 2019-2020
+
+Posterior inference {CausalImpact}
+
+                         Average         Cumulative      
+Actual                   3909            203244          
+Prediction (s.d.)        3829 (100)      199098 (5217)   
+95% CI                   [3617, 4020]    [188097, 209036]
+                                                         
+Absolute effect (s.d.)   80 (100)        4146 (5217)     
+95% CI                   [-111, 291]     [-5792, 15147]  
+                                                         
+Relative effect (s.d.)   2.2% (2.7%)     2.2% (2.7%)     
+95% CI                   [-2.8%, 8.1%]   [-2.8%, 8.1%]   
+
+Posterior tail-area probability p:   0.20173
+Posterior prob. of a causal effect:  80%
+
+For more details, type: summary(impact, "report")
+
+GENERAL MEDICINE 2019-2021
+
+Posterior inference {CausalImpact}
+
+                         Average        Cumulative      
+Actual                   4864           252949          
+Prediction (s.d.)        3804 (190)     197795 (9855)   
+95% CI                   [3225, 4047]   [167677, 210422]
+                                                        
+Absolute effect (s.d.)   1061 (190)     55154 (9855)    
+95% CI                   [818, 1640]    [42527, 85272]  
+                                                        
+Relative effect (s.d.)   28% (7.7%)     28% (7.7%)      
+95% CI                   [20%, 51%]     [20%, 51%]      
+
+Posterior tail-area probability p:   1e-04
+Posterior prob. of a causal effect:  99.98998%
+
+For more details, type: summary(impact, "report")
+
+GENERAL MEDICINE 2019-2022
+
+Posterior inference {CausalImpact}
+
+                         Average        Cumulative      
+Actual                   5553           288751          
+Prediction (s.d.)        3784 (268)     196775 (13932)  
+95% CI                   [2908, 4068]   [151228, 211539]
+                                                        
+Absolute effect (s.d.)   1769 (268)     91976 (13932)   
+95% CI                   [1485, 2645]   [77212, 137523] 
+                                                        
+Relative effect (s.d.)   48% (15%)      48% (15%)       
+95% CI                   [37%, 91%]     [37%, 91%]      
+
+Posterior tail-area probability p:   4e-05
+Posterior prob. of a causal effect:  99.99599%
+
+For more details, type: summary(impact, "report")
+
+OSTEOPATHY 2019-2020
+
+Posterior inference {CausalImpact}
+
+                         Average        Cumulative      
+Actual                   903            46941           
+Prediction (s.d.)        1173 (35)      60999 (1838)    
+95% CI                   [1101, 1242]   [57241, 64595]  
+                                                        
+Absolute effect (s.d.)   -270 (35)      -14058 (1838)   
+95% CI                   [-339, -198]   [-17654, -10300]
+                                                        
+Relative effect (s.d.)   -23% (2.3%)    -23% (2.3%)     
+95% CI                   [-27%, -18%]   [-27%, -18%]    
+
+Posterior tail-area probability p:   2e-05
+Posterior prob. of a causal effect:  99.99799%
+
+For more details, type: summary(impact, "report")
+
+OSTEOPATHY 2019-2021
+
+Posterior inference {CausalImpact}
+
+                         Average        Cumulative    
+Actual                   1304           67798         
+Prediction (s.d.)        1172 (63)      60966 (3289)  
+95% CI                   [1015, 1280]   [52777, 66540]
+                                                      
+Absolute effect (s.d.)   131 (63)       6832 (3289)   
+95% CI                   [24, 289]      [1258, 15021] 
+                                                      
+Relative effect (s.d.)   12% (6.9%)     12% (6.9%)    
+95% CI                   [1.9%, 28%]    [1.9%, 28%]   
+
+Posterior tail-area probability p:   0.01522
+Posterior prob. of a causal effect:  98.478%
+
+For more details, type: summary(impact, "report")
+
+OSTEOPATHY 2019-2022
+
+Posterior inference {CausalImpact}
+
+                         Average       Cumulative    
+Actual                   1529          79508         
+Prediction (s.d.)        1171 (85)     60877 (4438)  
+95% CI                   [939, 1303]   [48832, 67733]
+                                                     
+Absolute effect (s.d.)   358 (85)      18631 (4438)  
+95% CI                   [226, 590]    [11775, 30676]
+                                                     
+Relative effect (s.d.)   31% (13%)     31% (13%)     
+95% CI                   [17%, 63%]    [17%, 63%]    
+
+Posterior tail-area probability p:   0.00301
+Posterior prob. of a causal effect:  99.69938%
+
+For more details, type: summary(impact, "report")
+
+MADRID 2019-2020
+
+Posterior inference {CausalImpact}
+
+                         Average           Cumulative        
+Actual                   64973             3378601           
+Prediction (s.d.)        77298 (2276)      4019503 (118374)  
+95% CI                   [72477, 81636]    [3768818, 4245093]
+                                                             
+Absolute effect (s.d.)   -12325 (2276)     -640902 (118374)  
+95% CI                   [-16663, -7504]   [-866492, -390217]
+                                                             
+Relative effect (s.d.)   -16% (2.5%)       -16% (2.5%)       
+95% CI                   [-20%, -10%]      [-20%, -10%]      
+
+Posterior tail-area probability p:   8e-05
+Posterior prob. of a causal effect:  99.99198%
+
+For more details, type: summary(impact, "report")
+
+MADRID 2019-2021
+
+Posterior inference {CausalImpact}
+
+                         Average          Cumulative        
+Actual                   80063            4163261           
+Prediction (s.d.)        76894 (4367)     3998513 (227065)  
+95% CI                   [64300, 83019]   [3343584, 4316986]
+                                                            
+Absolute effect (s.d.)   3168 (4367)      164748 (227065)   
+95% CI                   [-2956, 15763]   [-153725, 819677] 
+                                                            
+Relative effect (s.d.)   4.5% (7.3%)      4.5% (7.3%)       
+95% CI                   [-3.6%, 25%]     [-3.6%, 25%]      
+
+Posterior tail-area probability p:   0.12841
+Posterior prob. of a causal effect:  87%
+
+For more details, type: summary(impact, "report")
+
+MADRID 2019-2022
+
+Posterior inference {CausalImpact}
+
+                         Average          Cumulative        
+Actual                   84153            4375957           
+Prediction (s.d.)        76619 (6221)     3984190 (323514)  
+95% CI                   [57261, 84643]   [2977563, 4401427]
+                                                            
+Absolute effect (s.d.)   7534 (6221)      391767 (323514)   
+95% CI                   [-490, 26892]    [-25470, 1398394] 
+                                                            
+Relative effect (s.d.)   11% (15%)        11% (15%)         
+95% CI                   [-0.58%, 47%]    [-0.58%, 47%]     
+
+Posterior tail-area probability p:   0.02908
+Posterior prob. of a causal effect:  97.092%
+
+BARCELONA 2019-2020
+
+Posterior inference {CausalImpact}
+
+                         Average          Cumulative       
+Actual                   13872            721360           
+Prediction (s.d.)        15246 (458)      792787 (23837)   
+95% CI                   [14242, 16093]   [740579, 836857] 
+                                                           
+Absolute effect (s.d.)   -1374 (458)      -71427 (23837)   
+95% CI                   [-2221, -370]    [-115497, -19219]
+                                                           
+Relative effect (s.d.)   -8.9% (2.8%)     -8.9% (2.8%)     
+95% CI                   [-14%, -2.6%]    [-14%, -2.6%]    
+
+Posterior tail-area probability p:   0.00792
+Posterior prob. of a causal effect:  99.20765%
+
+For more details, type: summary(impact, "report")
+
+BARCELONA 2019-2021
+
+Posterior inference {CausalImpact}
+
+                         Average          Cumulative      
+Actual                   18788            976980          
+Prediction (s.d.)        15074 (1078)     783866 (56068)  
+95% CI                   [11736, 16460]   [610251, 855903]
+                                                          
+Absolute effect (s.d.)   3714 (1078)      193114 (56068)  
+95% CI                   [2328, 7052]     [121077, 366729]
+                                                          
+Relative effect (s.d.)   25% (11%)        25% (11%)       
+95% CI                   [14%, 60%]       [14%, 60%]      
+
+Posterior tail-area probability p:   3e-04
+Posterior prob. of a causal effect:  99.96991%
+
+For more details, type: summary(impact, "report")
+
+BARCELONA 2019-2022
+
+Posterior inference {CausalImpact}
+
+                         Average         Cumulative      
+Actual                   2e+04           1e+06           
+Prediction (s.d.)        14945 (1580)    777151 (82169)  
+95% CI                   [9964, 16833]   [518124, 875291]
+                                                         
+Absolute effect (s.d.)   4603 (1580)     239367 (82169)  
+95% CI                   [2716, 9584]    [141227, 498394]
+                                                         
+Relative effect (s.d.)   33% (24%)       33% (24%)       
+95% CI                   [16%, 96%]      [16%, 96%]      
+
+Posterior tail-area probability p:   0.00135
+Posterior prob. of a causal effect:  99.86521%
+
+For more details, type: summary(impact, "report")
+
+VALENCIA 2019-2020
+
+Posterior inference {CausalImpact}
+
+                         Average         Cumulative      
+Actual                   9182            477490          
+Prediction (s.d.)        10076 (284)     523954 (14791)  
+95% CI                   [9477, 10611]   [492802, 551749]
+                                                         
+Absolute effect (s.d.)   -894 (284)      -46464 (14791)  
+95% CI                   [-1428, -294]   [-74259, -15312]
+                                                         
+Relative effect (s.d.)   -8.8% (2.6%)    -8.8% (2.6%)    
+95% CI                   [-13%, -3.1%]   [-13%, -3.1%]   
+
+Posterior tail-area probability p:   0.00487
+Posterior prob. of a causal effect:  99.51292%
+
+For more details, type: summary(impact, "report")
+
+VALENCIA 2019-2021
+
+Posterior inference {CausalImpact}
+
+                         Average         Cumulative      
+Actual                   12830           667170          
+Prediction (s.d.)        10012 (559)     520609 (29045)  
+95% CI                   [8335, 10760]   [433441, 559502]
+                                                         
+Absolute effect (s.d.)   2818 (559)      146561 (29045)  
+95% CI                   [2071, 4495]    [107668, 233729]
+                                                         
+Relative effect (s.d.)   29% (8.7%)      29% (8.7%)      
+95% CI                   [19%, 54%]      [19%, 54%]      
+
+Posterior tail-area probability p:   0.00046
+Posterior prob. of a causal effect:  99.9539%
+
+For more details, type: summary(impact, "report")
+
+VALENCIA 2019-2022
+
+Posterior inference {CausalImpact}
+
+                         Average         Cumulative      
+Actual                   13695           712134          
+Prediction (s.d.)        9972 (808)      518567 (42012)  
+95% CI                   [7384, 10993]   [383966, 571654]
+                                                         
+Absolute effect (s.d.)   3722 (808)      193567 (42012)  
+95% CI                   [2702, 6311]    [140480, 328168]
+                                                         
+Relative effect (s.d.)   39% (17%)       39% (17%)       
+95% CI                   [25%, 85%]      [25%, 85%]      
+
+Posterior tail-area probability p:   0.00034
+Posterior prob. of a causal effect:  99.96577%
+
+For more details, type: summary(impact, "report")
