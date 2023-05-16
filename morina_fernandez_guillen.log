@@ -1,0 +1,684 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.17)  8 MAY 2023 15:03
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Mapfre/Papers/Paper 4 (BSTS)/MapfreBSTS/morina_fernandez_guillen.tex"
+(/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Mapfre/Papers/Paper 4 (BSTS)/MapfreBSTS/morina_fernandez_guillen.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (./risa.cls
+Document Class: risa 2009/05/12 v2.2 LaTeX2e RISA document class
+Document Style `Risa' v1.0, released 2009 May 12
+\math@groups=\toks16
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/cmsy/b/n on input line 208.
+\realparindent=\skip48
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@discounter=\count191
+\@topalign=\dimen140
+\Verticalskip=\dimen141
+\@partialpageht=\dimen142
+\store@outputbox=\box51
+\storedboxheight=\dimen143
+\@indentskip=\skip49
+\smallindent=\skip50
+\@footindent=\skip51
+\@leftskip=\skip52
+\affilcount=\count192
+\tempcount=\count193
+\xaffilcount=\count194
+\absbox=\box52
+\keywdbox=\box53
+\c@emailcnt=\count195
+\c@emailxcnt=\count196
+\tempcount=\count197
+\c@dummy=\count198
+\c@table=\count199
+\c@figure=\count266
+\tempbox=\box54
+\mathindent=\dimen144
+(/home/dmorina/.TinyTeX/texmf-dist/tex/latex/tools/theorem.sty
+Package: theorem 2014/10/28 v2.2c Theorem extension package (FMi)
+\theorem@style=\toks17
+\theorem@bodyfont=\toks18
+\theorempreskipamount=\skip53
+\theorempostskipamount=\skip54
+(/home/dmorina/.TinyTeX/texmf-dist/tex/latex/tools/thp.sty
+File: thp.sty 2014/10/28 v2.2c Theorem extension package (FMi)
+))
+\c@theorem=\count267
+\c@theorem=\count268
+\c@algorithm=\count269
+\c@corollary=\count270
+\c@fact=\count271
+\c@property=\count272
+\c@result=\count273
+\c@lemma=\count274
+\c@assumption=\count275
+\c@case=\count276
+\c@axiom=\count277
+\c@change=\count278
+\c@claim=\count279
+\c@conjecture=\count280
+\c@definition=\count281
+\c@example=\count282
+\c@formula=\count283
+\c@hypothesis=\count284
+\c@method=\count285
+\c@model=\count286
+\c@notation=\count287
+\c@note=\count288
+\c@objective=\count289
+\c@observation=\count290
+\c@principle=\count291
+\c@problem=\count292
+\c@procedure=\count293
+\c@remark=\count294
+\c@step=\count295
+\theorempreskipamount=\skip55
+\theorempostskipamount=\skip56
+\footheight=\dimen145
+(./natbib.sty
+Package: natbib 2007/10/30 8.1 (PWD)
+\bibhang=\skip57
+\bibsep=\skip58
+LaTeX Info: Redefining \cite on input line 602.
+\c@NAT@ctr=\count296
+)) (./rotating.sty
+Package: rotating 1997/09/26 v2.13 Rotation package
+(/home/dmorina/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(/home/dmorina/.TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(/home/dmorina/.TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+(/home/dmorina/.TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen146
+\Gin@req@width=\dimen147
+) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count297
+\rot@float@box=\box55
+) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count298
+\float@exts=\toks20
+\float@box=\box56
+\@float@everytoks=\toks21
+\@floatcapt=\box57
+) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count299
+\mult@box=\box58
+\multicol@leftmargin=\dimen148
+\c@unbalance=\count300
+\c@collectmore=\count301
+\doublecol@number=\count302
+\multicoltolerance=\count303
+\multicolpretolerance=\count304
+\full@width=\dimen149
+\page@free=\dimen150
+\premulticols=\dimen151
+\postmulticols=\dimen152
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box59
+\last@line=\box60
+\maxbalancingoverflow=\dimen153
+\mult@rightbox=\box61
+\mult@grightbox=\box62
+\mult@firstbox=\box63
+\mult@gfirstbox=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\c@minrows=\count305
+\c@columnbadness=\count306
+\c@finalcolumnbadness=\count307
+\last@try=\dimen154
+\multicolovershoot=\dimen155
+\multicolundershoot=\dimen156
+\mult@nat@firstbox=\box101
+\colbreak@box=\box102
+\mc@col@check@num=\count308
+) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+(/home/dmorina/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+(/home/dmorina/.TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip61
+For additional information on amsmath, use the `?' option.
+(/home/dmorina/.TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+(/home/dmorina/.TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen157
+)) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen158
+) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count309
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count310
+\leftroot@=\count311
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count312
+\DOTSCASE@=\count313
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box103
+\strutbox@=\box104
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen159
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count314
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count315
+\dotsspace@=\muskip17
+\c@parentequation=\count316
+\dspbrk@lvl=\count317
+\tag@help=\toks23
+\row@=\count318
+\column@=\count319
+\maxfields@=\count320
+\andhelp@=\toks24
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
+\@envbody=\toks25
+\multlinegap=\skip62
+\multlinetaggap=\skip63
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box105
+) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count321
+\l__pdf_internal_box=\box106
+) (./morina_fernandez_guillen.aux)
+\openout1 = `morina_fernandez_guillen.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+(/home/dmorina/.TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+(/home/dmorina/.TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+(/home/dmorina/.TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(/home/dmorina/.TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/home/dmorina/.TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+(/home/dmorina/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+(/home/dmorina/.TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 40.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 40.
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 40--40
+[][][]$[]$\OT1/cmr/m/n/8 Department of Math-e-mat-ics, Uni-ver-si-tat Aut^^Ronoma de
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 48--49
+[]\OT1/cmr/m/n/10 After hav-ing ex-pe-ri-enced a shock like the
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\OT1/cmr/m/n/5 C
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\OT1/cmr/m/n/5 C
+ []
+
+[1{/home/dmorina/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Underfull \hbox (badness 1668) in paragraph at lines 56--58
+\OT1/cmr/m/n/10 dis-rup-tion to the global health in-sur-ance mar-
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 hos-pi-tal ad-mis-sions, and other med-i-cal ser-vices
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 in-sur-ance. These pro-ce-dures were of-ten put on
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 well as the re-stric-tions on move-ment in many
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 62--63
+\OT1/cmr/m/n/10 or post-pone-ment of med-i-cal care in 2020 than
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (5.74997pt too wide) has occurred while \output is active
+\OT1/cmr/bx/n/10 2
+ []
+
+[2]
+Underfull \hbox (badness 1571) in paragraph at lines 68--69
+\OT1/cmr/m/n/10 are puz-zled about the ef-fects of keep-ing these
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 72--73
+\OT1/cmr/m/n/10 in-sur-ers de-cide when their port-fo-lio in-for-ma-tion
+ []
+
+[3]
+Underfull \hbox (badness 1521) in paragraph at lines 116--117
+\OT1/cmr/m/n/10 and claimant co-vari-ate in-for-ma-tion is avail-able,
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 126--127
+\OT1/cmr/m/n/10 out-come is net of the pan-demic shock im-pact.
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 126--127
+\OT1/cmr/m/n/10 An il-lus-tra-tion be-low shows how this can be
+ []
+
+<Diagrama1.png, id=27, 1135.24126pt x 668.4975pt>
+File: Diagrama1.png Graphic file (type png)
+<use Diagrama1.png>
+Package pdftex.def Info: Diagrama1.png  used on input line 134.
+(pdftex.def)             Requested size: 227.61586pt x 142.26549pt.
+
+Overfull \hbox (5.74997pt too wide) has occurred while \output is active
+\OT1/cmr/bx/n/10 4
+ []
+
+[4]
+Underfull \hbox (badness 1348) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 claims as-so-ci-ated to a pri-vate health in-sur-ance
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 146--147
+\OT1/cmr/m/n/10 by the en-force-ment of so-cial dis-tance mea-sures
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 146--147
+\OT1/cmr/m/n/10 a pri-vate health in-sur-ance on top of ac-cess to
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 148--149
+\OT1/cmr/m/n/10 claims in the years 2019 and 2020, while the
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 152--153
+\OT1/cmr/m/n/10 in the GitHub repos-i-tory $\OT1/cmtt/m/n/10 https : / / github . com /
+ []
+
+<arima_global_prediction.png, id=34, 1284.8pt x 481.8pt>
+File: arima_global_prediction.png Graphic file (type png)
+<use arima_global_prediction.png>
+Package pdftex.def Info: arima_global_prediction.png  used on input line 157.
+(pdftex.def)             Requested size: 455.24408pt x 170.71304pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<bsts_global_prediction.png, id=35, 1284.8pt x 481.8pt>
+File: bsts_global_prediction.png Graphic file (type png)
+<use bsts_global_prediction.png>
+Package pdftex.def Info: bsts_global_prediction.png  used on input line 165.
+(pdftex.def)             Requested size: 455.24408pt x 170.71304pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./Diagrama1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (5.74997pt too wide) has occurred while \output is active
+\OT1/cmr/bx/n/10 6
+ []
+
+[6 <./arima_global_prediction.png (PNG copy)> <./bsts_global_prediction.png (PNG copy)>]
+Underfull \hbox (badness 1033) in paragraph at lines 178--179
+[]\OT1/cmr/m/n/10 It is clear from Fig-ure 3[] that the fore-cast
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 189--213
+[][][][][][][]
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 220--221
+\OT1/cmr/m/n/10 re-gres-sion mod-els to the num-ber of Car-di-ol-ogy
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 229--245
+[][][][][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 256--265
+[][][][][][][][]
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 269--270
+\OT1/cmr/m/n/10 with-out any cor-rec-tion, be-cause the global and
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 269--270
+\OT1/cmr/m/n/10 spe-cific cor-rec-tion are mod-elling (with less and
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 271--272
+\OT1/cmr/m/n/10 age/gender cor-rec-tion the es-ti-mated ex-cess cost
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[7]
+Underfull \vbox (badness 1092) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 278--279
+\OT1/cmr/m/n/10 COVID-19 pan-demic. Also from the health-care
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (5.74997pt too wide) has occurred while \output is active
+\OT1/cmr/bx/n/10 8
+ []
+
+[8]
+Underfull \hbox (badness 1014) in paragraph at lines 284--285
+\OT1/cmr/m/n/10 Achiev-ing a step by step anal-y-sis like the one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+[]\OT1/cmr/m/n/10 This re-search was funded by Fun-daci^^Son
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 289--290
+\OT1/cmr/m/n/10 MAPFRE (Be-cas Ig-na-cio H. de Lar-ra-mendi
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 289--290
+\OT1/cmr/m/n/10 2021). A.F-F. ac-knowl-edges Agen-cia Es-tatal de
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 289--290
+\OT1/cmr/m/n/10 In-ves-ti-gaci^^Son for the fi-nan-cial sup-port IJC2020-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+\OT1/cmr/m/n/10 045188I/AEI/10.13039/501100011033 and Mar^^S^^Pa
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 289--290
+\OT1/cmr/m/n/10 Zam-brano schol-ar-ship. M.G. and D.M. thank
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 289--290
+\OT1/cmr/m/n/10 Span-ish Min-istry of Sci-ence and In-no-va-tion,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+\OT1/cmr/m/n/10 FEDER grant PID2019-105986GB-C21 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+\OT1/cmr/m/n/10 NextGen-er-a-tionEU, grant num-ber TED2021-
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 289--290
+\OT1/cmr/m/n/10 130187B-I00. MG grate-fully thanks the ICREA
+ []
+
+(./morina_fernandez_guillen.bbl
+Underfull \hbox (badness 1112) in paragraph at lines 24--30
+\OT1/cmr/m/n/8 vanni, Fer-di-nando Ro-mano, and Tom-maso Stanis-cia.
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 43--48
+[]\OT1/cmr/m/n/8 Yeunkyung Kim, Al-iza Gor-don, Kathryn Row-erdink,
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 43--48
+\OT1/cmr/m/n/8 in-sured in-di-vid-u-als with com-mon chronic con-di-tions.
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 50--55
+[]\OT1/cmr/m/n/8 Daniel Kotrych, Dawid Ciechanow-icz, Jakub Paw-lik,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--67
+[]\OT1/cmr/m/n/8 Bernhard Michalowsky, Wolf-gang Hoff-mann, Jens
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 62--67
+\OT1/cmr/m/n/8 lock-down on dis-ease recog-ni-tion and util-i-sa-tion of
+ []
+
+[9]
+Underfull \hbox (badness 1292) in paragraph at lines 89--96
+\OT1/cmr/m/n/8 Madi-son, and Kathryn E Ren-nie.  Na-tional health
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 89--96
+\OT1/cmr/m/n/8 as covid-19 im-pacts wane: Study ex-am-ines na-tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--103
+[]\OT1/cmr/m/n/8 Jaros law We-nancjusz Przy-byt-niowski, Sta-nis law
+ []
+
+
+Underfull \hbox (badness 6758) in paragraph at lines 98--103
+\OT1/cmr/m/n/8 Borkowski, An-drzej Paw-lik, and Petro Garasyim.
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 110--117
+\OT1/cmr/m/n/8 Im-pact of sars-cov-2 pan-demic on col-orec-tal can-cer
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 110--117
+\OT1/cmr/m/n/8 screen-ing de-lay: ef-fect on stage shift and in-creased
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 119--123
+[]\OT1/cmr/m/n/8 Andreas Richter and Thomas C Wil-son.  Covid-
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 157--161
+[]\OT1/cmr/m/n/8 Mario V W^^?uthrich and Michael Merz.  \OT1/cmr/m/it/8 Sta-tis-ti-cal
+ []
+
+)
+Overfull \hbox (11.49994pt too wide) has occurred while \output is active
+\OT1/cmr/bx/n/10 10
+ []
+
+[10] (./morina_fernandez_guillen.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.72pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3733 strings out of 477966
+ 59287 string characters out of 5838262
+ 1877388 words of memory out of 5000000
+ 23867 multiletter control sequences out of 15000+600000
+ 521890 words of font info for 66 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 72i,15n,76p,1852b,403s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/dmorina/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
+Output written on morina_fernandez_guillen.pdf (10 pages, 482135 bytes).
+PDF statistics:
+ 155 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+
