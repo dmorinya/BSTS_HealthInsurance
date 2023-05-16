@@ -8,9 +8,9 @@ library(lubridate)
 library(CausalImpact)
 library(MMWRweek)
 
-mapfre_ts <- read_csv(unzip("/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Original MAPFRE Data/MAPFRE_Weekly_data.zip", "MAPFRE_Weekly_data.csv"))
-colnames(mapfre_ts) <- c("Year", "WeekNum", "Code_Real", "Code_Esp", "Code_Group", "Id", "Province", "Sex", "Age", "Acts")
-totals <- read_xlsx("/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Original MAPFRE Data/S67_IAL_CUBO_CARTERA_HISTORICA_SALUD_FAMILIAS_2023_febrero.xlsx",
+data_ts <- read_csv(unzip("Weekly_data.zip", "Weekly_data.csv"))
+colnames(data_ts) <- c("Year", "WeekNum", "Code_Real", "Code_Esp", "Code_Group", "Id", "Province", "Sex", "Age", "Acts")
+totals <- read_xlsx("S67_IAL_CUBO_CARTERA_HISTORICA_SALUD_FAMILIAS_2023_febrero.xlsx",
                     sheet="cartera 2023-febrero")
 colnames(totals) <- c("Date", "No.Fun", "Fun", "Dental", "Reimb", "Ind", "Total")
 totals$Date <- paste0("01/", totals$Date)
@@ -21,7 +21,7 @@ totals <- totals[totals$Date >= "2019-01-01" &
 df <- approx(x=totals$Date,y=totals$Total, xout=seq(as.Date("2019-01-01"), as.Date("2023-01-07"), "weeks"))
 totals <- data.frame(Date=df$x, Total=df$y)
 
-cardiology <- mapfre_ts[mapfre_ts$Code_Real==9 & mapfre_ts$Code_Esp==9 & mapfre_ts$Code_Group=="10100" & mapfre_ts$Id== 1, ]
+cardiology <- data_ts[data_ts$Code_Real==9 & data_ts$Code_Esp==9 & data_ts$Code_Group=="10100" & data_ts$Id== 1, ]
 
 cardiology <- cardiology %>% group_by(Year, WeekNum) %>% summarise(Acts=sum(Acts)) ### Remove duplicates
 
@@ -74,13 +74,13 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/cardiology_2019_2022.png")
+png("Papers/Paper 4 (BSTS)/Results/cardiology_2019_2022.png")
 plot(impact)
 dev.off()
 summary(impact)
 
 ### Cardiology by age group and sex
-cardiology <- mapfre_ts[mapfre_ts$Code_Real==9 & mapfre_ts$Code_Esp==9 & mapfre_ts$Code_Group=="10100" & mapfre_ts$Id== 1, ]
+cardiology <- data_ts[data_ts$Code_Real==9 & data_ts$Code_Esp==9 & data_ts$Code_Group=="10100" & data_ts$Id== 1, ]
 cardiology$AgeCAT <- ifelse(cardiology$Age=="(59, 200]", 1, 0)
 
 ### females under 60
@@ -126,7 +126,7 @@ impact <- CausalImpact(bsts.model = bsts.model,
 summary(impact)
 
 ### Cardiology by age group and sex
-cardiology <- mapfre_ts[mapfre_ts$Code_Real==9 & mapfre_ts$Code_Esp==9 & mapfre_ts$Code_Group=="10100" & mapfre_ts$Id== 1, ]
+cardiology <- data_ts[data_ts$Code_Real==9 & data_ts$Code_Esp==9 & data_ts$Code_Group=="10100" & data_ts$Id== 1, ]
 cardiology$AgeCAT <- ifelse(cardiology$Age=="(59, 200]", 1, 0)
 
 ### females over 60
@@ -172,7 +172,7 @@ impact <- CausalImpact(bsts.model = bsts.model,
 summary(impact)
 
 ### Cardiology by age group and sex
-cardiology <- mapfre_ts[mapfre_ts$Code_Real==9 & mapfre_ts$Code_Esp==9 & mapfre_ts$Code_Group=="10100" & mapfre_ts$Id== 1, ]
+cardiology <- data_ts[data_ts$Code_Real==9 & data_ts$Code_Esp==9 & data_ts$Code_Group=="10100" & data_ts$Id== 1, ]
 cardiology$AgeCAT <- ifelse(cardiology$Age=="(59, 200]", 1, 0)
 
 ### males under 60
@@ -218,12 +218,12 @@ impact <- CausalImpact(bsts.model = bsts.model,
 summary(impact)
 
 ### Cardiology by age group and sex
-cardiology <- mapfre_ts[mapfre_ts$Code_Real==9 & mapfre_ts$Code_Esp==9 & mapfre_ts$Code_Group=="10100" & mapfre_ts$Id== 1, ]
+cardiology <- data_ts[data_ts$Code_Real==9 & data_ts$Code_Esp==9 & data_ts$Code_Group=="10100" & data_ts$Id== 1, ]
 cardiology$AgeCAT <- ifelse(cardiology$Age=="(59, 200]", 1, 0)
 
 ### males over 60
 cardiology <- cardiology %>% filter(Sex==2 & AgeCAT==1) %>% group_by(Year, WeekNum) %>% summarise(Acts=sum(Acts)) ### Remove duplicates
-totals <- read_xlsx("/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Original MAPFRE Data/S67_IAL_CUBO_CARTERA_HISTORICA_SALUD_FAMILIAS_2023_febrero.xlsx",
+totals <- read_xlsx("S67_IAL_CUBO_CARTERA_HISTORICA_SALUD_FAMILIAS_2023_febrero.xlsx",
                     sheet="cartera 2023-febrero")
 colnames(totals) <- c("Date", "No.Fun", "Fun", "Dental", "Reimb", "Ind", "Total")
 totals$Date <- paste0("01/", totals$Date)

@@ -8,9 +8,9 @@ library(lubridate)
 library(CausalImpact)
 library(MMWRweek)
 
-mapfre_ts <- read_csv(unzip("/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Original MAPFRE Data/MAPFRE_Weekly_data.zip", "MAPFRE_Weekly_data.csv"))
-colnames(mapfre_ts) <- c("Year", "WeekNum", "Code_Real", "Code_Esp", "Code_Group", "Id", "Province", "Sex", "Age", "Acts")
-totals <- read_xlsx("/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Original MAPFRE Data/S67_IAL_CUBO_CARTERA_HISTORICA_SALUD_FAMILIAS_2023_febrero.xlsx",
+data_ts <- read_csv(unzip("Weekly_data.zip", "Weekly_data.csv"))
+colnames(data_ts) <- c("Year", "WeekNum", "Code_Real", "Code_Esp", "Code_Group", "Id", "Province", "Sex", "Age", "Acts")
+totals <- read_xlsx("S67_IAL_CUBO_CARTERA_HISTORICA_SALUD_FAMILIAS_2023_febrero.xlsx",
                     sheet="cartera 2023-febrero")
 colnames(totals) <- c("Date", "No.Fun", "Fun", "Dental", "Reimb", "Ind", "Total")
 totals$Date <- paste0("01/", totals$Date)
@@ -21,7 +21,7 @@ totals <- totals[totals$Date >= "2019-01-01" &
 df <- approx(x=totals$Date,y=totals$Total, xout=seq(as.Date("2019-01-01"), as.Date("2023-01-07"), "weeks"))
 totals <- data.frame(Date=df$x, Total=df$y)
 
-global <- mapfre_ts %>% group_by(Year, WeekNum) %>%
+global <- data_ts %>% group_by(Year, WeekNum) %>%
   summarise(Acts=sum(Acts))
 
 global$Date <- totals$Date
@@ -42,7 +42,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/global_2019_2020.png")
+png("Papers/Paper 4 (BSTS)/Results/global_2019_2020.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -58,7 +58,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/global_2019_2021.png")
+png("Papers/Paper 4 (BSTS)/Results/global_2019_2021.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -74,7 +74,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/global_2019_2022.png")
+png("Papers/Paper 4 (BSTS)/Results/global_2019_2022.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -82,7 +82,7 @@ summary(impact)
 rm(global)
 
 ### ONLY FEMALES
-females <- mapfre_ts %>% filter(Sex==1) %>% group_by(Year, WeekNum) %>% 
+females <- data_ts %>% filter(Sex==1) %>% group_by(Year, WeekNum) %>% 
   summarise(Acts=sum(Acts))
 
 females$Date <- seq(as.Date("2019-01-01"), as.Date("2023-01-07"), "weeks")
@@ -101,7 +101,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/females_2019_2020.png")
+png("Papers/Paper 4 (BSTS)/Results/females_2019_2020.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -117,7 +117,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/females_2019_2021.png")
+png("Papers/Paper 4 (BSTS)/Results/females_2019_2021.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -133,13 +133,13 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/females_2019_2022.png")
+png("Papers/Paper 4 (BSTS)/Results/females_2019_2022.png")
 plot(impact)
 dev.off()
 summary(impact)
 
 ### ONLY MALES (Sex=2)
-males <- mapfre_ts %>% filter(Sex==2) %>% group_by(Year, WeekNum) %>% 
+males <- data_ts %>% filter(Sex==2) %>% group_by(Year, WeekNum) %>% 
   summarise(Acts=sum(Acts))
 
 males$Date <- seq(as.Date("2019-01-01"), as.Date("2023-01-07"), "weeks")
@@ -158,7 +158,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/males_2019_2020.png")
+png("Papers/Paper 4 (BSTS)/Results/males_2019_2020.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -174,7 +174,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/males_2019_2021.png")
+png("Papers/Paper 4 (BSTS)/Results/males_2019_2021.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -190,13 +190,13 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/males_2019_2022.png")
+png("Papers/Paper 4 (BSTS)/Results/males_2019_2022.png")
 plot(impact)
 dev.off()
 summary(impact)
 
 ### OVER 60
-over60 <- mapfre_ts %>% filter(Age=="(59, 200]") %>% group_by(Year, WeekNum) %>% 
+over60 <- data_ts %>% filter(Age=="(59, 200]") %>% group_by(Year, WeekNum) %>% 
   summarise(Acts=sum(Acts))
 
 over60$Date <- seq(as.Date("2019-01-01"), as.Date("2023-01-07"), "weeks")
@@ -215,7 +215,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/over60_2019_2020.png")
+png("Papers/Paper 4 (BSTS)/Results/over60_2019_2020.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -231,7 +231,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/over60_2019_2021.png")
+png("Papers/Paper 4 (BSTS)/Results/over60_2019_2021.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -247,13 +247,13 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/over60_2019_2022.png")
+png("Papers/Paper 4 (BSTS)/Results/over60_2019_2022.png")
 plot(impact)
 dev.off()
 summary(impact)
 
 ### MADRID
-madrid <- mapfre_ts %>% filter(Province==28) %>% group_by(Year, WeekNum) %>% 
+madrid <- data_ts %>% filter(Province==28) %>% group_by(Year, WeekNum) %>% 
   summarise(Acts=sum(Acts))
 
 madrid$Date <- seq(as.Date("2019-01-01"), as.Date("2023-01-07"), "weeks")
@@ -272,7 +272,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/madrid_2019_2020.png")
+png("Papers/Paper 4 (BSTS)/Results/madrid_2019_2020.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -288,7 +288,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/madrid_2019_2021.png")
+png("Papers/Paper 4 (BSTS)/Results/madrid_2019_2021.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -304,13 +304,13 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/madrid_2019_2022.png")
+png("Papers/Paper 4 (BSTS)/Results/madrid_2019_2022.png")
 plot(impact)
 dev.off()
 summary(impact)
 
 ### BARCELONA (Province=08)
-barcelona <- mapfre_ts %>% filter(Province==08) %>% group_by(Year, WeekNum) %>% 
+barcelona <- data_ts %>% filter(Province==08) %>% group_by(Year, WeekNum) %>% 
   summarise(Acts=sum(Acts))
 
 barcelona$Date <- seq(as.Date("2019-01-01"), as.Date("2023-01-07"), "weeks")
@@ -329,7 +329,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/barcelona_2019_2020.png")
+png("Papers/Paper 4 (BSTS)/Results/barcelona_2019_2020.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -345,7 +345,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/barcelona_2019_2021.png")
+png("Papers/Paper 4 (BSTS)/Results/barcelona_2019_2021.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -361,13 +361,13 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/barcelona_2019_2022.png")
+png("Papers/Paper 4 (BSTS)/Results/barcelona_2019_2022.png")
 plot(impact)
 dev.off()
 summary(impact)
 
 ### VALENCIA (Province=46)
-valencia <- mapfre_ts %>% filter(Province==46) %>% group_by(Year, WeekNum) %>% 
+valencia <- data_ts %>% filter(Province==46) %>% group_by(Year, WeekNum) %>% 
   summarise(Acts=sum(Acts))
 
 valencia$Date <- seq(as.Date("2019-01-01"), as.Date("2023-01-07"), "weeks")
@@ -386,7 +386,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/valencia_2019_2020.png")
+png("Papers/Paper 4 (BSTS)/Results/valencia_2019_2020.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -402,7 +402,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/valencia_2019_2021.png")
+png("Papers/Paper 4 (BSTS)/Results/valencia_2019_2021.png")
 plot(impact)
 dev.off()
 summary(impact)
@@ -418,7 +418,7 @@ ss <- AddSeasonal(ss, y, nseasons = 52)
 bsts.model <- bsts(y~x, ss, niter = 50000)
 impact <- CausalImpact(bsts.model = bsts.model,
                        post.period.response = post.period.response)
-png("Papers/Paper 4 (BSTS)/MapfreBSTS/Results/valencia_2019_2022.png")
+png("Papers/Paper 4 (BSTS)/Results/valencia_2019_2022.png")
 plot(impact)
 dev.off()
 summary(impact)

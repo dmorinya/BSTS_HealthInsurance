@@ -8,7 +8,7 @@ library(lubridate)
 library(MMWRweek)
 library(VGAM)
 
-data_poiss <- read_csv("/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Original MAPFRE Data/MAPFRE_Poisson_cardiology_data.csv")
+data_poiss <- read_csv("Poisson_cardiology_data.csv")
 colnames(data_poiss) <- c("Year", "Policy", "Sex", "Age", "Acts")
 global <- data_poiss %>% group_by(Year, Policy, Sex, Age) %>%
   summarise(Acts=sum(Acts))

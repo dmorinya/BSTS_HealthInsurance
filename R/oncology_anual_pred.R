@@ -8,9 +8,9 @@ library(lubridate)
 library(CausalImpact)
 library(MMWRweek)
 
-mapfre_ts <- read_csv(unzip("Data/MAPFRE_Weekly_data.zip", "MAPFRE_Weekly_data.csv"))
-totals <- read_xlsx("Data/S67_IAL_CUBO_CARTERA_HISTORICA_SALUD_FAMILIAS.xlsx")
-colnames(mapfre_ts) <- c("Year", "WeekNum", "Code_Real", "Code_Esp", "Code_Group", "Id", "Province", "Sex", "Age", "Acts")
+data_ts <- read_csv(unzip("Weekly_data.zip", "Weekly_data.csv"))
+totals <- read_xlsx("S67_IAL_CUBO_CARTERA_HISTORICA_SALUD_FAMILIAS.xlsx")
+colnames(data_ts) <- c("Year", "WeekNum", "Code_Real", "Code_Esp", "Code_Group", "Id", "Province", "Sex", "Age", "Acts")
 colnames(totals) <- c("Date", "No.Fun", "Fun", "Dental", "Reimb", "Ind", "Total")
 totals$Date <- paste0("01/", totals$Date)
 totals$Date <- as.Date(totals$Date, "%d/%m/%Y")
@@ -22,7 +22,7 @@ totals <- data.frame(Date=df$x, Total=df$y)
 
 totals <- totals[-158, ]
 
-oncology <- mapfre_ts[mapfre_ts$Code_Real==33 & mapfre_ts$Code_Esp==33 & mapfre_ts$Code_Group=="10100" & mapfre_ts$Id== 1, ]
+oncology <- data_ts[data_ts$Code_Real==33 & data_ts$Code_Esp==33 & data_ts$Code_Group=="10100" & data_ts$Id== 1, ]
 
 oncology <- oncology %>% group_by(Year, WeekNum) %>% summarise(Acts=sum(Acts)) ### Remove duplicates
 

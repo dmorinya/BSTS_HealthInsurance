@@ -8,9 +8,9 @@ library(lubridate)
 library(CausalImpact)
 library(MMWRweek)
 
-mapfre_ts <- read_csv(unzip("/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Original MAPFRE Data/MAPFRE_Weekly_data.zip", "MAPFRE_Weekly_data.csv"))
-colnames(mapfre_ts) <- c("Year", "WeekNum", "Code_Real", "Code_Esp", "Code_Group", "Id", "Province", "Sex", "Age", "Acts")
-totals <- read_xlsx("/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Original MAPFRE Data/S67_IAL_CUBO_CARTERA_HISTORICA_SALUD_FAMILIAS_2023_febrero.xlsx",
+data_ts <- read_csv(unzip("Weekly_data.zip", "Weekly_data.csv"))
+colnames(data_ts) <- c("Year", "WeekNum", "Code_Real", "Code_Esp", "Code_Group", "Id", "Province", "Sex", "Age", "Acts")
+totals <- read_xlsx("S67_IAL_CUBO_CARTERA_HISTORICA_SALUD_FAMILIAS_2023_febrero.xlsx",
                     sheet="cartera 2023-febrero")
 colnames(totals) <- c("Date", "No.Fun", "Fun", "Dental", "Reimb", "Ind", "Total")
 totals$Date <- paste0("01/", totals$Date)
@@ -21,7 +21,7 @@ totals <- totals[totals$Date >= "2019-01-01" &
 df <- approx(x=totals$Date,y=totals$Total, xout=seq(as.Date("2019-01-01"), as.Date("2022-12-01"), "weeks"))
 totals <- data.frame(Date=df$x, Total=df$y)
 
-global <- mapfre_ts %>% group_by(Year, WeekNum) %>%
+global <- data_ts %>% group_by(Year, WeekNum) %>%
   summarise(Acts=sum(Acts))
 
 global$Date <- seq(as.Date("2019-01-01"), as.Date("2023-01-07"), "weeks")
