@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.17)  8 MAY 2023 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.4)  6 JUN 2023 09:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Mapfre/Papers/Paper 4 (BSTS)/MapfreBSTS/morina_fernandez_guillen.tex"
-(/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Mapfre/Papers/Paper 4 (BSTS)/MapfreBSTS/morina_fernandez_guillen.tex
+**"/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Mapfre/Papers/BSTS_HealthInsurance/morina_fernandez_guillen.tex"
+(/home/dmorina/Insync/dmorina@ub.edu/OneDrive Biz/Projectes/2022/0052022. MAPFRE/Mapfre/Papers/BSTS_HealthInsurance/morina_fernandez_guillen.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (./risa.cls
+L3 programming layer <2023-05-22> (./risa.cls
 Document Class: risa 2009/05/12 v2.2 LaTeX2e RISA document class
 Document Style `Risa' v1.0, released 2009 May 12
 \math@groups=\toks16
@@ -264,7 +264,7 @@ LaTeX Info: Redefining \] on input line 2954.
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box105
 ) (/home/dmorina/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count321
 \l__pdf_internal_box=\box106
 ) (./morina_fernandez_guillen.aux)
@@ -328,8 +328,8 @@ Underfull \hbox (badness 1824) in paragraph at lines 40--40
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 48--49
-[]\OT1/cmr/m/n/10 After hav-ing ex-pe-ri-enced a shock like the
+Underfull \hbox (badness 1389) in paragraph at lines 45--46
+\OT1/cmr/m/n/10 of use of med-i-cal in-sur-ance ser-vices. More-over,
  []
 
 
@@ -349,28 +349,38 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ]
-Underfull \hbox (badness 1668) in paragraph at lines 56--58
-\OT1/cmr/m/n/10 dis-rup-tion to the global health in-sur-ance mar-
+Underfull \hbox (badness 1348) in paragraph at lines 54--55
+\OT1/cmr/m/n/10 num-ber of lessons have been learned. Yet, the
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 60--61
-\OT1/cmr/m/n/10 hos-pi-tal ad-mis-sions, and other med-i-cal ser-vices
+Underfull \hbox (badness 2253) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 pat-tern was sim-i-lar in many coun-tries around
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 60--61
-\OT1/cmr/m/n/10 in-sur-ance. These pro-ce-dures were of-ten put on
+Underfull \hbox (badness 1097) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 lands$[]$ and Ger-many$[]$ suf-fered sub-stan-tially
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 60--61
-\OT1/cmr/m/n/10 well as the re-stric-tions on move-ment in many
+Underfull \hbox (badness 1107) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 con-se-quences of de-lay-ing the treat-ment of non-
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 62--63
-\OT1/cmr/m/n/10 or post-pone-ment of med-i-cal care in 2020 than
+Underfull \hbox (badness 1389) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 as the mar-ket ex-panded, with a price hike in
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 a po-ten-tial risk pre-sented it-self as a ver-i-ta-ble
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 sup-plies and the de-liv-ery of care. As a re-sult,
  []
 
 
@@ -382,83 +392,151 @@ Overfull \hbox (5.74997pt too wide) has occurred while \output is active
  []
 
 [2]
-Underfull \hbox (badness 1571) in paragraph at lines 68--69
-\OT1/cmr/m/n/10 are puz-zled about the ef-fects of keep-ing these
+Underfull \hbox (badness 2529) in paragraph at lines 68--69
+\OT1/cmr/m/n/10 of a shock on claim fre-quency se-ries, 2) the
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 72--73
-\OT1/cmr/m/n/10 in-sur-ers de-cide when their port-fo-lio in-for-ma-tion
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [3]
-Underfull \hbox (badness 1521) in paragraph at lines 116--117
-\OT1/cmr/m/n/10 and claimant co-vari-ate in-for-ma-tion is avail-able,
+Underfull \vbox (badness 2020) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 110--111
+\OT1/cmr/m/n/10 be elim-i-nated from these data for the pur-pose
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 126--127
-\OT1/cmr/m/n/10 out-come is net of the pan-demic shock im-pact.
+Underfull \hbox (badness 1226) in paragraph at lines 110--111
+\OT1/cmr/m/n/10 of pre-dic-tive mod-el-ing and mak-ing com-par-isons
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 126--127
-\OT1/cmr/m/n/10 An il-lus-tra-tion be-low shows how this can be
+Underfull \hbox (badness 1546) in paragraph at lines 116--117
+\OT1/cmr/m/n/10 means that the shock has pro-duced an ex-cess
  []
 
-<Diagrama1.png, id=27, 1135.24126pt x 668.4975pt>
-File: Diagrama1.png Graphic file (type png)
-<use Diagrama1.png>
-Package pdftex.def Info: Diagrama1.png  used on input line 134.
-(pdftex.def)             Requested size: 227.61586pt x 142.26549pt.
+
+Underfull \hbox (badness 1009) in paragraph at lines 116--117
+\OT1/cmr/m/n/10 neg-a-tive $\OML/cmm/m/it/10 f[]$ \OT1/cmr/m/n/10 means that the shock has re-duced
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 120--121
+\OT1/cmr/m/n/10 and fit-ted Pois-son re-gres-sion mod-els for claims
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 120--121
+\OT1/cmr/m/n/10 We com-pare anal-y-ses of sin-gle vs multiple-year
+ []
+
 
 Overfull \hbox (5.74997pt too wide) has occurred while \output is active
 \OT1/cmr/bx/n/10 4
  []
 
 [4]
-Underfull \hbox (badness 1348) in paragraph at lines 142--143
-\OT1/cmr/m/n/10 claims as-so-ci-ated to a pri-vate health in-sur-ance
+<Diagrama1.png, id=33, 1135.24126pt x 668.4975pt>
+File: Diagrama1.png Graphic file (type png)
+<use Diagrama1.png>
+Package pdftex.def Info: Diagrama1.png  used on input line 126.
+(pdftex.def)             Requested size: 227.61586pt x 142.26549pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+[]\OT1/cmr/m/n/10 The R code used to gen-er-ate the
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 146--147
-\OT1/cmr/m/n/10 by the en-force-ment of so-cial dis-tance mea-sures
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 re-sults and fig-ures de-scribed be-low
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 146--147
-\OT1/cmr/m/n/10 a pri-vate health in-sur-ance on top of ac-cess to
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 are avail-able in the GitHub repos-i-tory
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 148--149
-\OT1/cmr/m/n/10 claims in the years 2019 and 2020, while the
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+[]\OT1/cmr/m/n/10 https://github.com/dmorinya/XxxxBSTS[]. The
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 152--153
-\OT1/cmr/m/n/10 in the GitHub repos-i-tory $\OT1/cmtt/m/n/10 https : / / github . com /
+Underfull \hbox (badness 2073) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 re-sults can be re-pro-duced with the car-di-ol-ogy
  []
 
-<arima_global_prediction.png, id=34, 1284.8pt x 481.8pt>
-File: arima_global_prediction.png Graphic file (type png)
-<use arima_global_prediction.png>
-Package pdftex.def Info: arima_global_prediction.png  used on input line 157.
-(pdftex.def)             Requested size: 455.24408pt x 170.71304pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 1484) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 sub-set. The rest of our data can-not be made
+ []
 
-<bsts_global_prediction.png, id=35, 1284.8pt x 481.8pt>
-File: bsts_global_prediction.png Graphic file (type png)
-<use bsts_global_prediction.png>
-Package pdftex.def Info: bsts_global_prediction.png  used on input line 165.
-(pdftex.def)             Requested size: 455.24408pt x 170.71304pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [5 <./Diagrama1.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<arima_global_prediction.png, id=37, 1284.8pt x 481.8pt>
+File: arima_global_prediction.png Graphic file (type png)
+<use arima_global_prediction.png>
+Package pdftex.def Info: arima_global_prediction.png  used on input line 148.
+(pdftex.def)             Requested size: 455.24408pt x 170.71304pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<bsts_global_prediction.png, id=38, 1284.8pt x 481.8pt>
+File: bsts_global_prediction.png Graphic file (type png)
+<use bsts_global_prediction.png>
+Package pdftex.def Info: bsts_global_prediction.png  used on input line 156.
+(pdftex.def)             Requested size: 455.24408pt x 170.71304pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 165--167
+[]\OT1/cmr/m/n/10 A more so-phis-ti-cated ap-proach, and one
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 165--167
+\OT1/cmr/m/n/10 that would al-low an-a-lysts to make a fore-cast
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 165--167
+\OT1/cmr/m/n/10 of fu-ture be-hav-ior, is pro-vided by the clas-
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 165--167
+\OT1/cmr/m/n/10 si-cal ARIMA time se-ries mod-els, ig-nor-ing the
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 165--167
+\OT1/cmr/m/n/10 fact that the orig-i-nal se-ries is not sta-tion-ary
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 168--169
+\OT1/cmr/m/n/10 is only ca-pa-ble of cap-tur-ing the mean of the
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 180--204
+[][][][][][][]
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 208--209
+\OT1/cmr/m/n/10 num-ber of con-tracts is ag-gre-gated only at the
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 211--212
+\OT1/cmr/m/n/10 Ad-di-tion-ally, we fit a Pois-son re-gres-sion model
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -468,62 +546,32 @@ Overfull \hbox (5.74997pt too wide) has occurred while \output is active
 \OT1/cmr/bx/n/10 6
  []
 
-[6 <./arima_global_prediction.png (PNG copy)> <./bsts_global_prediction.png (PNG copy)>]
-Underfull \hbox (badness 1033) in paragraph at lines 178--179
-[]\OT1/cmr/m/n/10 It is clear from Fig-ure 3[] that the fore-cast
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 189--213
+[6]
+Underfull \hbox (badness 10000) in alignment at lines 220--236
 [][][][][][][]
- []
-
-
-Underfull \hbox (badness 1259) in paragraph at lines 220--221
-\OT1/cmr/m/n/10 re-gres-sion mod-els to the num-ber of Car-di-ol-ogy
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 229--245
-[][][][][][][]
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 256--265
+Underfull \hbox (badness 10000) in alignment at lines 247--256
 [][][][][][][][]
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 269--270
-\OT1/cmr/m/n/10 with-out any cor-rec-tion, be-cause the global and
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 269--270
-\OT1/cmr/m/n/10 spe-cific cor-rec-tion are mod-elling (with less and
- []
-
-
-Underfull \hbox (badness 1303) in paragraph at lines 271--272
-\OT1/cmr/m/n/10 age/gender cor-rec-tion the es-ti-mated ex-cess cost
+Underfull \hbox (badness 1521) in paragraph at lines 260--261
+\OT1/cmr/m/n/10 de-tail, re-spec-tively) the coun-ter-fac-tual that the
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[7]
-Underfull \vbox (badness 1092) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 278--279
-\OT1/cmr/m/n/10 COVID-19 pan-demic. Also from the health-care
- []
-
-
+[7 <./arima_global_prediction.png (PNG copy)> <./bsts_global_prediction.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 4072) has occurred while \output is active []
 
 
 Overfull \hbox (5.74997pt too wide) has occurred while \output is active
@@ -531,127 +579,97 @@ Overfull \hbox (5.74997pt too wide) has occurred while \output is active
  []
 
 [8]
-Underfull \hbox (badness 1014) in paragraph at lines 284--285
-\OT1/cmr/m/n/10 Achiev-ing a step by step anal-y-sis like the one
+Underfull \hbox (badness 6300) in paragraph at lines 285--286
+\OT1/cmr/m/n/10 MAPFRE (Be-cas Ig-na-cio H. de Lar-ra-mendi,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-[]\OT1/cmr/m/n/10 This re-search was funded by Fun-daci^^Son
+Underfull \hbox (badness 3503) in paragraph at lines 285--286
+\OT1/cmr/m/n/10 2021). A.F-F. thanks the Agen-cia Es-tatal de
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 289--290
-\OT1/cmr/m/n/10 MAPFRE (Be-cas Ig-na-cio H. de Lar-ra-mendi
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+\OT1/cmr/m/n/10 In-ves-ti-gaci^^Son for fi-nan-cial sup-port (IJC2020-
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 289--290
-\OT1/cmr/m/n/10 2021). A.F-F. ac-knowl-edges Agen-cia Es-tatal de
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+\OT1/cmr/m/n/10 045188I/AEI/10.13039/501100011033) and for
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 289--290
-\OT1/cmr/m/n/10 In-ves-ti-gaci^^Son for the fi-nan-cial sup-port IJC2020-
+Underfull \hbox (badness 7256) in paragraph at lines 285--286
+\OT1/cmr/m/n/10 thank the Span-ish Min-istry of Sci-ence and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-\OT1/cmr/m/n/10 045188I/AEI/10.13039/501100011033 and Mar^^S^^Pa
- []
-
-
-Underfull \hbox (badness 4582) in paragraph at lines 289--290
-\OT1/cmr/m/n/10 Zam-brano schol-ar-ship. M.G. and D.M. thank
- []
-
-
-Underfull \hbox (badness 7451) in paragraph at lines 289--290
-\OT1/cmr/m/n/10 Span-ish Min-istry of Sci-ence and In-no-va-tion,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-\OT1/cmr/m/n/10 FEDER grant PID2019-105986GB-C21 and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-\OT1/cmr/m/n/10 NextGen-er-a-tionEU, grant num-ber TED2021-
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 289--290
+Underfull \hbox (badness 1424) in paragraph at lines 285--286
 \OT1/cmr/m/n/10 130187B-I00. MG grate-fully thanks the ICREA
  []
 
 (./morina_fernandez_guillen.bbl
-Underfull \hbox (badness 1112) in paragraph at lines 24--30
+Underfull \hbox (badness 1112) in paragraph at lines 19--22
 \OT1/cmr/m/n/8 vanni, Fer-di-nando Ro-mano, and Tom-maso Stanis-cia.
  []
 
-
-Underfull \hbox (badness 1005) in paragraph at lines 43--48
+[9]
+Underfull \hbox (badness 1005) in paragraph at lines 34--37
 []\OT1/cmr/m/n/8 Yeunkyung Kim, Al-iza Gor-don, Kathryn Row-erdink,
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 43--48
+Underfull \hbox (badness 1152) in paragraph at lines 34--37
 \OT1/cmr/m/n/8 in-sured in-di-vid-u-als with com-mon chronic con-di-tions.
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 50--55
+Underfull \hbox (badness 1137) in paragraph at lines 39--42
 []\OT1/cmr/m/n/8 Daniel Kotrych, Dawid Ciechanow-icz, Jakub Paw-lik,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--67
+Underfull \hbox (badness 10000) in paragraph at lines 49--52
 []\OT1/cmr/m/n/8 Bernhard Michalowsky, Wolf-gang Hoff-mann, Jens
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 62--67
+Underfull \hbox (badness 3240) in paragraph at lines 49--52
 \OT1/cmr/m/n/8 lock-down on dis-ease recog-ni-tion and util-i-sa-tion of
  []
 
-[9]
-Underfull \hbox (badness 1292) in paragraph at lines 89--96
+
+Underfull \hbox (badness 1292) in paragraph at lines 69--72
 \OT1/cmr/m/n/8 Madi-son, and Kathryn E Ren-nie.  Na-tional health
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 89--96
-\OT1/cmr/m/n/8 as covid-19 im-pacts wane: Study ex-am-ines na-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--103
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
 []\OT1/cmr/m/n/8 Jaros law We-nancjusz Przy-byt-niowski, Sta-nis law
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 98--103
+Underfull \hbox (badness 6758) in paragraph at lines 74--77
 \OT1/cmr/m/n/8 Borkowski, An-drzej Paw-lik, and Petro Garasyim.
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 110--117
-\OT1/cmr/m/n/8 Im-pact of sars-cov-2 pan-demic on col-orec-tal can-cer
- []
-
-
-Underfull \hbox (badness 1584) in paragraph at lines 110--117
+Underfull \hbox (badness 1584) in paragraph at lines 84--87
 \OT1/cmr/m/n/8 screen-ing de-lay: ef-fect on stage shift and in-creased
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 119--123
-[]\OT1/cmr/m/n/8 Andreas Richter and Thomas C Wil-son.  Covid-
+Underfull \hbox (badness 1454) in paragraph at lines 89--92
+[]\OT1/cmr/m/n/8 Andreas Richter and Thomas C Wil-son.  COVID-
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 157--161
+Underfull \hbox (badness 2452) in paragraph at lines 115--118
+[]\OT1/cmr/m/n/8 Gail R Wilen-sky.  The COVID-19 pan-demic and
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 120--123
 []\OT1/cmr/m/n/8 Mario V W^^?uthrich and Michael Merz.  \OT1/cmr/m/it/8 Sta-tis-ti-cal
  []
 
@@ -667,18 +685,18 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 3733 strings out of 477966
- 59287 string characters out of 5838262
- 1877388 words of memory out of 5000000
- 23867 multiletter control sequences out of 15000+600000
- 521890 words of font info for 66 fonts, out of 8000000 for 9000
+ 3773 strings out of 477998
+ 60361 string characters out of 5839288
+ 1878785 words of memory out of 5000000
+ 23890 multiletter control sequences out of 15000+600000
+ 521940 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,15n,76p,1852b,403s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/dmorina/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on morina_fernandez_guillen.pdf (10 pages, 482135 bytes).
+ 72i,15n,76p,1837b,403s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/dmorina/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/dmorina/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></home/dmorina/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
+Output written on morina_fernandez_guillen.pdf (10 pages, 463766 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 150 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
